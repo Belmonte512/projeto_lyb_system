@@ -5,7 +5,7 @@ class AboutView(tk.Toplevel):
     def __init__(self, parent):
         super().__init__(parent)
         self.title("Sobre o Sistema")
-        self.geometry("500x400")
+        self.geometry("600x600")
         self.resizable(False, False)
         self.configure(bg="white")
         
@@ -48,7 +48,10 @@ class AboutView(tk.Toplevel):
         
         # --- ATENÇÃO: SUBSTITUA PELOS SEUS DADOS ---
         devs = [
-            ("Gabriel Vinicius Pessolo Fiumari", "Matrícula: 2840482413022")
+            ("Gabriel Vinicius Pessolo Fiumari", "Matrícula: 2840482413022"),
+            ("Leandro de Paula Bastos", "Matrícula: 2840482313030"),
+            ("Murilo Lucas da Silva Vianna", "Matrícula: 2840482313013"),
+            ("Robson Douglas dos Santos Gomes", "Matrícula: 2840482413007"),
         ]
         
         for nome, mat in devs:
