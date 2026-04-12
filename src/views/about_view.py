@@ -46,7 +46,6 @@ class AboutView(tk.Toplevel):
         # Seção 2: Desenvolvedores
         self._add_section_title(content_frame, "Equipe de Desenvolvimento")
         
-        # --- ATENÇÃO: SUBSTITUA PELOS SEUS DADOS ---
         devs = [
             ("Gabriel Vinicius Pessolo Fiumari", "Matrícula: 2840482413022"),
             ("Leandro de Paula Bastos", "Matrícula: 2840482313030"),
